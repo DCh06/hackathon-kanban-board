@@ -1,0 +1,1 @@
+export const apiUrl = "http://172.26.70.224:8091/api/collections";

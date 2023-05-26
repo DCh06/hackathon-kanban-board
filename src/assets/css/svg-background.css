@@ -1,0 +1,34 @@
+.svg-background {
+    position: absolute;
+    mix-blend-mode: darken;
+    opacity: .8;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100dvh;
+}
+
+.svg-background__gradient--primary {
+    stop-color: var(--primary-color);
+}
+
+.svg-background__gradient--primary-last {
+    stop-color: rgba(var(--primary-color-rgb), 0);
+}
+
+.svg-background__gradient--secondary {
+    stop-color: var(--secondary-color);
+}
+
+.svg-background__gradient--secondary-last {
+    stop-color: rgba(var(--secondary-color-rgb), 0);
+}
+
+.svg-background__gradient--ternary {
+    stop-color: var(--ternary-color);
+}
+
+.svg-background__gradient--ternary-last {
+    stop-color: rgba(var(--ternary-color-rgb), 0);
+}

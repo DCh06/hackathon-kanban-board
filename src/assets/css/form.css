@@ -1,0 +1,27 @@
+.form {
+    display: grid;
+    gap: 1.4rem;
+}
+
+.form__item--error {
+    color: var(--priority-high);
+}
+
+.form__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__item button {
+    align-self: flex-end;
+}
+
+.form__item label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.form__item label:after {
+    content: ": ";
+}

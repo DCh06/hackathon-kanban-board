@@ -1,0 +1,17 @@
+.panel {
+    backdrop-filter: blur(1px);
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.panel__title {
+    margin: 0;
+    padding: 1rem;
+    border-bottom: 1px solid #1f3a8a0f;
+}
+
+.panel__body {
+    padding: 1rem;
+}

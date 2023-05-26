@@ -1,0 +1,55 @@
+:root {
+    --primary-color-rgb: 37,99, 235;
+    --secondary-color-rgb: 74,199, 196;
+    --ternary-color-rgb: 130, 74, 234;
+    --text-color-rgb: 30, 58, 138;
+
+    --primary-color: rgb(var(--primary-color-rgb));
+    --secondary-color: rgb(var(--secondary-color-rgb));
+    --ternary-color: rgb(var(--ternary-color-rgb));
+    --text-color: rgb(var(--text-color-rgb));
+    --back-color: rgb(238 242 255);
+    --base-font: 'Inter', sans-serif;
+    --priority-high: rgb(235 36 97);
+    --priority-medium: rgb(235 125 36);
+    --priority-low: rgb(36 157 235);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    /*background: var(--back-color) url("https://keynote.tailwindui.com/_next/static/media/background.6c3571e0.jpg") top -200px left -200px no-repeat;*/
+    background: var(--back-color);
+    background-color: #e5e5f7;
+    background-image: radial-gradient(var(--primary-color) 0.5px, var(--back-color) 0.5px);
+    background-size: 10px 10px;
+    font-family: var(--base-font);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.content {
+    padding: 1.5rem;
+    margin-inline: auto;
+    width: 100%;
+}
+
+.content--narrow {
+    max-width: 980px;
+}

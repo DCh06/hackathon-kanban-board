@@ -1,0 +1,36 @@
+.input {
+    width: 100%;
+    border: 1px solid #1f3a8a24;
+    border-radius: 4px;
+    padding: .8rem;
+    outline: 0;
+    font-family: var(--base-font);
+    height: 3.3rem;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.input[type="color"] {
+    padding: .6rem .8rem;
+}
+
+.input:focus {
+    border-color: var(--primary-color);
+    outline: 1px solid var(--primary-color);
+}
+
+.input--multiline {
+    height: auto;
+    resize: vertical;
+    min-height: 8rem;
+}
+
+.input--error {
+    border-color: var(--priority-high);
+}
+
+.input--error:focus {
+    border-color: var(--priority-high);
+    color: var(--priority-high);
+    outline: 1px solid var(--priority-high);
+}

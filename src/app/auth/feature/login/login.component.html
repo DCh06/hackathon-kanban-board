@@ -1,0 +1,20 @@
+<div class="login">
+    <div class="login__panel">
+        <h2 class="login__title">Login</h2>
+        <form [formGroup]="form" (ngSubmit)="submit()" class="form">
+            <div class="form__item">
+                <label for="input-username">Username</label>
+                <input formControlName="identity" id="input-username" type="text" class="input">
+            </div>
+             <div class="form__item">
+                <label for="input-password">Password</label>
+                <input formControlName="password" id="input-password" type="password" class="input">
+            </div>
+             <div class="form__item">
+                <button class="button" type="submit">
+                    Log In
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

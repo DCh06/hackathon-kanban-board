@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&display=swap');
+@import "global.css";
+@import "svg-background.css";
+@import "button.css";
+@import "the-header.css";
+@import "the-nav.css";
+@import "kanban-board.css";
+@import "kanban-column.css";
+@import "kanban-item.css";
+@import "modal.css";
+@import "form.css";
+@import "input.css";
+@import "login.css";
+@import "panel.css";

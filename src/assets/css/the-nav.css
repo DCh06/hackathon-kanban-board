@@ -1,0 +1,23 @@
+.the-nav ul {
+    display: flex;
+    gap: 1.3rem;
+    list-style: none;
+}
+
+.the-nav__item {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 100px;
+    padding: .7rem 1rem;
+}
+
+.the-nav__item--logout {
+    color: var(--priority-high);
+}
+
+.the-nav__item--active {
+    background: var(--primary-color);
+    color: #fff;
+}
